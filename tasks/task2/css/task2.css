@@ -1,0 +1,149 @@
+.m-gammer {
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+.m-gammer .u-gammer_tt {
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+.m-gammer .u-gammer_tt h2 {
+  box-sizing: border-box;
+  padding: 1.5rem 0;
+  font-size: 0.36rem;
+}
+.m-gammer .u-gammer_main {
+  box-sizing: border-box;
+  height: 4.5rem;
+  float: right;
+  width: 70%;
+  background-color: #fbfbfb;
+  border-left: 1px solid #d9d9d9;
+}
+.m-gammer .u-gammer_main .u-gammer_describtion {
+  padding: 0.4rem 0 ;
+  height: 4rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d9d9d9;
+  overflow: auto;
+  text-align: center;
+}
+.m-gammer .u-gammer_main .u-gammer_describtion li {
+  float: left;
+  display: inline-block;
+  letter-spacing: 0.03rem;
+  width: 50%;
+  box-sizing: border-box;
+  line-height: 0.7rem;
+  font-size: 0.26rem;
+  color: #a1a1a1;
+}
+.m-gammer .u-gammer_main .u-gammer_setting {
+  text-align: center;
+}
+.m-gammer .u-gammer_main .u-gammer_setting #js-stting {
+  display: inline-block;
+  line-height: 0.5rem;
+  font-size: 0.28rem;
+  color: #29bde0;
+  border: 0;
+  outline: none;
+}
+.m-phrase {
+  background-color: #ffffff;
+  padding: 0 0.3rem 0.3rem 0.3rem;
+  text-align: left;
+}
+.m-phrase .u-phrase_people {
+  display: block;
+  line-height: 0.95rem;
+  font-size: 0.28rem;
+  color: #d7d7d7;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #f0f0f0;
+}
+.u-next {
+  display: block;
+  width: 100%;
+  line-height: 0.9rem;
+  font-size: 0.4rem;
+  background-color: #fab344;
+  text-align: center;
+  color: white;
+}
+.u-chosgammer {
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+  padding: 0.2rem 0.5rem 0.4rem 0.3rem;
+  background-color: white;
+  text-align: left;
+}
+.u-chosgammer p {
+  font-size: 0.26rem;
+}
+.u-chosgammer p input {
+  display: inline-block;
+  padding: 0.07rem 0.1rem;
+  margin: 0 0.3rem;
+  width: 0.6rem;
+  border: none;
+  font-size: 0.34rem;
+  color: #fab344;
+  background-color: #f4f5f5;
+}
+.u-chosgammer .m-range {
+  margin-top: 0.6rem;
+}
+.u-chosgammer .m-range input {
+  display: inline-block;
+}
+/*进度条单独样式设置*/
+#js-btn_range {
+  -webkit-appearance: none;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 0.05rem 0 0.05rem;
+  border: none;
+  /*清除选择时的外边线*/
+  /*滑动条样式*/
+  /*滑块样式*/
+}
+#js-btn_range:focus {
+  outline: none;
+}
+#js-btn_range::-webkit-slider-runnable-track {
+  height: 0.1rem;
+  width: 4rem;
+  background-color: #ffe6b3;
+}
+#js-btn_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -0.12rem;
+  /*滑块居中*/
+  background: url("../images/icon-choosebar.png") no-repeat;
+  -webkit-background-size: 0.6rem 0.36rem;
+  background-size: 0.6rem 0.36rem;
+  width: 0.6rem;
+  height: 0.36rem;
+}
+/*li前面的小块*/
+.u-gammer_describtion li span {
+  display: inline-block;
+  margin-right: 0.2rem;
+  width: 0.1rem;
+  height: 0.1rem;
+  vertical-align: middle;
+}
+.u-gammer_describtion li:nth-child(4n+1) span,
+.u-gammer_describtion li:nth-child(4n+2) span {
+  background-color: #fab344;
+}
+.u-gammer_describtion li:nth-child(4n+3) span,
+.u-gammer_describtion li:nth-child(4n+4) span {
+  background-color: #29bde0;
+}

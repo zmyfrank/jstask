@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="js-2" IsPhone="false" SpriteImgFileType="Png" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="icon-pencile.png" LocationX="0" LocationY="0" />
+    <Sprite Path="icon-pre.png" LocationX="15" LocationY="0" />
+    <Sprite Path="icon-plus.png" LocationX="41" LocationY="0" />
+    <Sprite Path="icon-minus.png" LocationX="70" LocationY="0" />
+    <Sprite Path="icon-alert.png" LocationX="99" LocationY="0" />
+    <Sprite Path="icon-help.png" LocationX="140" LocationY="0" />
+  </SpriteList>
+</SpriteFile>

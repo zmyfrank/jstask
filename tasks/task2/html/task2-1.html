@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/task2.css">
+</head>
+<body>
+<header class="g-hd">
+    <div class="m-hd">
+        <a href=""><i class="icon-pre"></i></a>
+        <h2>参数设置</h2>
+        <a href="#"><i class="icon-help"></i></a>
+    </div>
+</header>
+<div class="g-bd s-bdc">
+    <div class="g-in f-tc">
+        <div class="m-gammer">
+            <div class="u-gammer_tt">
+                <h2>玩<br>家<br>配<br>比</h2>
+            </div>
+            <div class="u-gammer_main">
+                <ul id="js-idbox" class="u-gammer_describtion">
+                </ul>
+                <div class="u-gammer_setting">
+                    <button id="js-stting">点击设置<i class="icon-pencile"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="m-phrase">
+           <input type="text" class="u-phrase_people" placeholder="水民词组">
+           <input type="text" class="u-phrase_people" placeholder="幽灵词组">
+       </div>
+        <div class="u-chosgammer">
+            <p>玩家人数 <input id="js-input_pnum" type="number" max="18" min="6" value="6">人</p>
+            <div class="m-range">
+                <button type="button" value="-" id="js-btn_minus"><i class="icon-minus"></i></button>
+                <input id="js-btn_range" type="range" max="18" min="6" value="6">
+                <button type="button" value="+" id="js-btn_plus"><i class="icon-plus"></i></button>
+            </div>
+
+        </div>
+        <a class="u-next" id="js-btn_go">去发牌</a>
+    </div>
+</div>
+
+<script src="../js/slider.js"></script>
+<script src="../js/task2-1.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  background-color: #29bde0;
+  padding-bottom: 0.6rem;
+}
+header {
+  border-bottom: 1px solid #74d4eb;
+}
+.g-bd {
+  background-color: #29bde0;
+}
+#m-idbox {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0.5rem auto 0.5rem auto;
+  width: 4.7rem;
+  height: 6.5rem;
+  background-color: #ffedc5;
+  border: 0.1rem solid white;
+}
+.u-idbox_circle {
+  position: absolute;
+  top: -0.34rem;
+  left: 50%;
+  margin-left: -0.34rem;
+  box-sizing: border-box;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  border: 0.05rem solid #ffedc5;
+  background-color: white;
+  line-height: 0.65rem;
+  color: #f56b81;
+  font-size: 0.4rem;
+  text-align: center;
+}
+footer {
+  width: 100%;
+}
+footer button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 4.95rem;
+  padding: 0.2rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  background-color: #fbb435;
+  border: none;
+  outline: none;
+}
+/*初始页面图片*/
+#js-draw2 {
+  display: block;
+  margin-top: 1.75;
+  width: 3rem;
+  margin: 1.75rem auto 0 auto;
+}
+/*揭开身份页面图片*/
+#js-draw {
+  display: block;
+  margin: 0.6rem auto 0 auto;
+  width: 2.22rem;
+}
+/*角色*/
+#js-Idj {
+  padding: 0.35rem 0 0.2rem 0;
+  text-align: center;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #29bde0;
+}
+/*词组*/
+#js-Idc {
+  padding-bottom: 0.32rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #f56b81;
+}
+/*揭开身份之后的小提示*/
+#js-tip {
+  padding: 0.3rem 0.25rem;
+  font-size: 0.26rem;
+  line-height: 0.28rem;
+  font-weight: bold;
+  color: #fca000;
+  border-top: 0.02rem solid white;
+}

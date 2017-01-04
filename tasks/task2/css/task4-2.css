@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+}
+.m-wrap {
+  margin: 0 auto;
+  max-width: 620px;
+  background-color: #f0f0f0;
+}
+.g-bd {
+  padding: 0.35rem 0.1rem 0.1rem 0.1rem;
+}
+.m-mnc {
+  position: relative;
+  border: 0.01rem solid #c9c9c9;
+  background-color: #f7f7f7;
+}
+.m-mnc h2 {
+  font-size: 0.3rem;
+  color: #29bde0;
+}
+/*hd部分开始*/
+.m-mnc-hd {
+  border-bottom: 0.01rem solid #c9c9c9;
+  text-align: center;
+  overflow: hidden;
+}
+.m-mnc-hd h2 {
+  line-height: 0.85rem;
+  font-size: 0.3rem;
+  color: #29bde0;
+}
+.m-mnc-hd .icon-down {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.15rem;
+}
+/*bd部分的表格开始*/
+.m-mnc-bd {
+  margin-left: 0.4rem;
+  padding: 0.5rem 0.5rem 1.75rem 0.4rem;
+  border-left: 0.02rem solid #c9c9c9;
+}
+.m-mnc-bd ul:first-child {
+  margin-bottom: 0.8rem;
+}
+.m-mnc-bd li {
+  margin-bottom: 0.2rem;
+  width: 4.84rem;
+  height: 0.76rem;
+  background: url("../images/icon-libg.png") no-repeat center;
+  color: white;
+  text-align: center;
+  font-size: 0.3rem;
+  line-height: 0.76rem;
+}
+/*两张图片直接绝对定位*/
+.icon-moon {
+  position: absolute;
+  width: 0.6rem;
+  background-color: #f7f7f7;
+  top: 1.4rem;
+  left: 0.1rem;
+}
+.icon-sun {
+  position: absolute;
+  width: 0.6rem;
+  background-color: #f7f7f7;
+  bottom: 4rem;
+  left: 0.1rem;
+}
+@media (max-width: 640px) {
+  html {
+    font-size: 327%;
+  }
+}

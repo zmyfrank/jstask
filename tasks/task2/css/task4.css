@@ -1,0 +1,68 @@
+header {
+  border-bottom: 0.01rem solid #74d4eb;
+}
+.g-bd {
+  padding-top: 0;
+}
+.m-wrap {
+  margin: 0 auto;
+  max-width: 620px;
+  background-color: #29bde0;
+  padding-bottom: 1rem;
+}
+.m-idbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.u-idbox-item {
+  margin-top: 0.7rem;
+  box-sizing: border-box;
+  width: 1.35rem;
+  border: 0.04rem solid white;
+}
+.u-idbox-item:nth-child(3n+2) {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.u-idbox-item .u-idbox-item_id {
+  background-color: #4e9cc0;
+  height: 1rem;
+}
+.u-idbox-item .u-idbox-item_id p {
+  display: none;
+  font-size: 0.2276rem;
+  color: white;
+  text-align: center;
+  line-height: 1rem;
+}
+.u-idbox-item .u-idbox-item_id:hover img {
+  display: none;
+}
+.u-idbox-item .u-idbox-item_id:hover p {
+  display: block;
+}
+.u-idbox-item .u-dibox-item_num {
+  background-color: #3ba4c5;
+  line-height: 0.3rem;
+  font-size: 0.2276rem;
+  color: white;
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  height: 1rem;
+  text-align: center;
+}
+footer .u-btn_start {
+  margin-left: 0.66rem;
+  display: inline-block;
+  width: 4.9rem;
+  line-height: 0.9rem;
+  font-size: 0.4rem;
+  text-align: center;
+  color: white;
+  background-color: #fbb435;
+}
