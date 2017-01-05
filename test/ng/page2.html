@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 <div>
     <div>
-        <span style="width:100px"><a href="">Page-2</a></span>
-        <span style="width:100px"><a href="">Page-3</a></span>
-        <span style="width:100px"><a href="">Page-4</a></span>
-        <span style="width:100px"><a href="">Page-5</a></span>
+        <span style="width:100px" ui-sref=".Page2"><a href="">Page-2</a></span>
+        <!--注意其中使用ui-sref将他们各自关联起来这样就嵌入了页面-->
+        <span style="width:100px" ui-sref=".Page3"><a href="">Page-3</a></span>
+        <span style="width:100px" ui-sref=".Page4"><a href="">Page-4</a></span>
+        <span style="width:100px" ui-sref=".Page5"><a href="">Page-5</a></span>
+    </div>
+    <div>
+        <div ui-view=""/>
     </div>
 </div>
-</body>
-</html>
