@@ -140,6 +140,15 @@ for(var i = 0; i<paras.length ; i++) {
 // alert(shopping.getAttribute("title"));
 // shopping.setAttribute("title","a list of goods");
 // alert(shopping.getAttribute("title"));
+function creat() {
+    var result = new Array();
 
-var a = new Map([['frank',80],['long',90],['chai',100]]);
-alert(a.get('frank'))
+    for (var i=0; i<10;i++) {
+        result[i]=function () {
+            return i;
+        };
+    }
+    console.log(result);
+    return result;
+}
+
