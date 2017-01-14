@@ -12,7 +12,5 @@ var myAppFil = angular.module("myAppFil",[]);
 
                     console.log(start);
                     return items.slice(start);     //将原始数据按照 start 分割
-
             };
-
     });
